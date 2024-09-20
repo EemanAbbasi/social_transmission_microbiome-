@@ -81,7 +81,7 @@ simulation_output_<NOD>_<DEG>_<PN>_<PR>_<MICROBIAL_POOL_SIZE>.npz
 ## Plotting (Optional)
 
 Visualizations:
-- Generates line plots to visualize the relationships between Number of Hosts, DEG (Degree), and diversity metrics such as host microbial gamma, beta and alpha diversity, extinctio and colonization rates).
+- Generates line plots to visualize the relationships between Number of Hosts, DEG (Degree), and diversity metrics such as host microbial gamma, beta, alpha diversity, and extinction and colonization rates).
 - Creates FacetGrid plots to display how diversity metrics change across different PN (probability of inherited connection) and PR (probability of random) values.
 
 ---
