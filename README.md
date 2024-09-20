@@ -97,4 +97,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions or issues, feel free to reach out to [Eeman Abbasi](mailto:your-email@example.com).
+For any questions or issues, feel free to reach out to [Eeman Abbasi](eabbasi@sas.upenn.edu).
