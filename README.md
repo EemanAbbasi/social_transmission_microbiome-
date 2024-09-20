@@ -80,7 +80,9 @@ simulation_output_<NOD>_<DEG>_<PN>_<PR>_<MICROBIAL_POOL_SIZE>.npz
 
 ## Plotting (Optional)
 
-A separate plotting script can be used to visualize the results. Ensure to modify the file paths appropriately in the script.
+Visualizations:
+Generates line plots to visualize the relationships between NOD (Number of Hosts), DEG (Degree), and various diversity metrics (gamma diversity, alpha diversity, extinction rates, colonization rates, and beta diversity).
+Creates FacetGrid plots to display how diversity metrics change across different PN (probability of network connection) and PR (probability of removal) values.
 
 ---
 
