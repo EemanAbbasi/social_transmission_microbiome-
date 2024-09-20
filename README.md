@@ -36,8 +36,8 @@ python social_microbiome.py <NOD> <DEG> <PN> <PR> <epsilon> <MICROBIAL_POOL_SIZE
 
 - `NOD`: Number of nodes (hosts) in the network.
 - `DEG`: Mean degree of the network.
-- `PN`: Probability of a new connection between nodes (social transmission parameter).
-- `PR`: Probability of rewiring or removal of connections.
+- `PN`: Probability of a inherited connections.
+- `PR`: Probability of random connections.
 - `epsilon`: Environmental acquisition rate.
 - `MICROBIAL_POOL_SIZE`: The number of different microbes that can be assigned to hosts.
 - `path_to_save`: Path to save the simulation results as `.npz` files.
@@ -81,8 +81,8 @@ simulation_output_<NOD>_<DEG>_<PN>_<PR>_<MICROBIAL_POOL_SIZE>.npz
 ## Plotting (Optional)
 
 Visualizations:
-Generates line plots to visualize the relationships between NOD (Number of Hosts), DEG (Degree), and various diversity metrics (gamma diversity, alpha diversity, extinction rates, colonization rates, and beta diversity).
-Creates FacetGrid plots to display how diversity metrics change across different PN (probability of network connection) and PR (probability of removal) values.
+- Generates line plots to visualize the relationships between Number of Hosts, DEG (Degree), and diversity metrics such as host microbial gamma, beta and alpha diversity, extinctio and colonization rates).
+- Creates FacetGrid plots to display how diversity metrics change across different PN (probability of inherited connection) and PR (probability of random) values.
 
 ---
 
