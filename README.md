@@ -78,7 +78,7 @@ simulation_output_<NOD>_<DEG>_<PN>_<PR>_<MICROBIAL_POOL_SIZE>.npz
 4. **Saving Results:**  
    The simulation outputs are saved in `.npz` format for later analysis or visualization.
 
-## Plotting (Optional)
+## Plotting
 
 Visualizations:
 - Generates line plots to visualize the relationships between Number of Hosts, DEG (Degree), and diversity metrics such as host microbial gamma, beta, alpha diversity, and extinction and colonization rates).
