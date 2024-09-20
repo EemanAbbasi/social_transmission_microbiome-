@@ -91,10 +91,6 @@ Visualizations:
 - The values of `PN` and `PR` are crucial in determining the network's structure and microbial transmission patterns.
 - The script allows you to control the frequency of environmental acquisition using the `epsilon` parameter.
   
-## License
-
-This project is licensed under the MIT License.
-
 ## Contact
 
 For any questions or issues, feel free to reach out to [Eeman Abbasi](eabbasi@sas.upenn.edu).
